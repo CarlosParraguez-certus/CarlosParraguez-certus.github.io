@@ -1,0 +1,141 @@
+/* esto es un comentario en CSS */
+/* Aplicaremos un estilo para darle un color de fondo a la pagina */
+body {
+  background-color: silver;
+}
+
+/* Aplicamos colores a cada una de las paginas de las secciones de la pagina */
+.contenedor {
+  background-color: black;
+}
+
+.cabecera {
+  background-color: blue;
+}
+
+.menu {
+  background-color: cadetblue;
+}
+
+.cuerpo {
+  background-color: blueviolet;
+}
+
+.pie {
+  background-color: coral;
+}
+
+/* Agregamos una imagen de fondo a un parrafo */
+.parrafoimagen {
+  background-image: url("/img/logo\ certus.png");
+}
+
+/* Agregamos un color de fondo con transparencia para los parrafos */
+.parrafotransparencia {
+  background-color: black;
+  opacity: 75%;
+  color: white;
+}
+
+/* Agregamos una imagen de fondo al parrafo, pero quiero que la imagen se repita */
+.parrafoimagenrepetir {
+  background-image: url("/img/html5ycss3.png");
+}
+
+/* Agregamos una imagen de fondo al parrafo, pero quiero que la imagen no se repita */
+.parrafoimagennorepetir {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: no-repeat;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero le cambiamos el tamaño */
+.parrafoimagentamaño {
+  background-image: url(/img/html5ycss3.png);
+  background-size: 30px;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero quiero repetir la imagen de forma horizontal */
+.parrafoimagenrepetirhorizontal {
+  background-image: url(/img/html5ycss3.png);
+  background-repeat: repeat-x;
+  background-size: 30px;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero quiero repetir la imagen de forma vertical */
+.parrafoimagenrepetirvertical {
+  background-image: url(/img/html5ycss3.png);
+  background-repeat: repeat-y;
+  background-size: 30px;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero quiero que este centrado */
+.parrafoimagencentrar {
+  background-image: url(/img/html5ycss3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero quiero que este a la izquierda */
+.parrafoimagenizquierda {
+  background-image: url(/img/html5ycss3.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero quiero que este a la derecha */
+.parrafoimagenderecha {
+  background-image: url(/img/html5ycss3.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero quiero que este en la parte superior */
+.parrafoimagensuperior {
+  background-image: url(/img/html5ycss3.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero quiero que este en la parte inferior */
+.parrafoimageninferior {
+  background-image: url(/img/html5ycss3.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero quiero que este en la parte superior y derecha */
+.parrafoimagensuperiorderecha {
+  background-image: url(/img/html5ycss3.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero quiero que este en la parte superior y izquierda */
+.parrafoimagensuperiorizquierda {
+  background-image: url(/img/html5ycss3.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero quiero que este en la parte inferior y derecha */
+.parrafoimageninferiorderecha {
+  background-image: url(/img/html5ycss3.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+/* agregamosuna imagen de fondo al parrafo, pero quiero que este en la parte inferior y izquierda */
+.parrafoimageninferiorizquierda {
+  background-image: url(/img/html5ycss3.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}

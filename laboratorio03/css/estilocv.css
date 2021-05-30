@@ -1,0 +1,24 @@
+.nombre {
+  background-color: royalblue;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+body {
+  background-color: white;
+}
+p {
+  background-color: white;
+}
+h2 {
+  background-color: darkorange;
+}
+b {
+  background-color: darkseagreen;
+}
+li {
+  background-color: blueviolet;
+}

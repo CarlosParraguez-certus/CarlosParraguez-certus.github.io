@@ -1,0 +1,71 @@
+.estatico {
+  position: static;
+  border: 5px solid blue;
+}
+
+.relativa {
+  position: relative;
+  left: 60px;
+  border: 5px solid cadetblue;
+}
+
+.fija {
+  position: fixed;
+  top: 0;
+  left: 400px;
+  border: 5px solid cadetblue;
+}
+
+.contenedorrelaivo {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 5px solid red;
+}
+
+.contendorabsoluto {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 100px;
+  left: 0;
+  border: 5px solid peru;
+}
+
+.ancla {
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: cornsilk;
+  border: 5px solid cyan;
+}
+
+.contenedor {
+  padding-bottom: 1000px;
+}
+
+img {
+  width: 100;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.contenedorimagen {
+  position: relative;
+  max-width: 1000px;
+}
+
+.contenedorimagen img {
+  width: 100%;
+  height: auto;
+  opacity: 40%;
+}
+
+.textoderecho {
+  position: absolute;
+  right: 20px;
+  top: 200px;
+}
