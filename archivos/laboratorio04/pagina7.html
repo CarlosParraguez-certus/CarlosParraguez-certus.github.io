@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Parte 3</title>
+    <script type="text/javascript">
+        // Condicionales dobles
+        // La condicional doble devuelve un valor si la condicion es verdadera y en caso
+        // la condicion se false devuelve otro valor
+        // Sintaxis
+        // if (condicion){
+        //      ...programa...
+        //}else{
+        //    ...programa...
+        //}
+
+        // Ejemplo 1
+        // Desarrollar una aplicacion que permita calcular el area de un triangulo si se sabe,
+        // que se debe ingresar su base y su altura. Si el area del triangulo es mayor a 50
+        // un mensaje indicando "Es un triangulo pequeño"
+        // ¿Cuantas variables necesito?
+        // 4
+        // ¿Que tipo de datos necesito?
+        // Real, Texto
+        // ¿Cuales son las vaiables que necesito?
+        // bas,alt,area,men
+        // ¿Que variabales voy a leer?
+        // bas,alt
+        // definiendo e inicializando valores
+        var bas=0,alt=0,area=0,men="";
+        // capturando valores
+        bas=parseFloat(prompt("Ingrese la base del triangulo:"));
+        alt=parseFloat(prompt("Ingrese la altura del triangulo:"));
+        // realizando operaciones
+        area=(bas*alt)/2;
+        // condicion
+        if(area>50){
+            men="Es un triangulo grande";
+        }else{
+            men="Es un triangulo pequeño";
+        }
+        // mostrando resultados
+        alert("Elarea del triangulo es:"+area);
+        alert(men);
+
+        // Ejemplo 2
+        // Desarrollar una aplicacion que permita calcular el total a pagar una compra de un 
+        // producto, si se sabe que se debe de ingresar el precio del producto y la cantidad 
+        // que se va a comprar. Si el subtotal de la compra es mayor a 1000 se aplicara un
+        // Descuento del 5% en caso contrario el descuento sera del 2. si el cliente quiere
+        // factura se aplicara el 18% al subtotal para el igv en caso contrario con boleta
+        // no aplicara nada. Mostrar todos los resultados
+        // ¿Cuantas variables necesito?
+        // 7
+        // ¿Que tipo de datos necesito?
+        // Real, Texto
+        // ¿Cuales son las vaiables que necesito?
+        // pre, can, sbt, des, igv, tot, com
+        // ¿Que variabales voy a leer?
+        // pre, can, com
+        // definiendo e inicializando variables
+        var pre=0,can=0,sbt=0,des=0,igv=0,tot=0,com="";
+        // capturando valores
+        pre=parseFloat(prompt("Ingrese el precio del producto:"));
+        can=parseInt(prompt("Ingrese la cantidad a comprar:"));
+        com=prompt("Ingrese el tipo de comprobante: [f]Factura o [b]Boleta");
+        // realizando operaciones
+        sbt=pre*can;
+        if(sbt>1000){
+            des=sbt*0.05;
+        }else{
+            des=sbt*0.02;
+        }
+        if(com=="f"){
+            igv=sbt*0.18;
+        }else{
+            igv=0;
+        }
+        tot=sbt-des+igv;
+        // mostrando resultados
+        document.write("El subtotal es:"+sbt+"<br>");
+        document.write("El descuento es:"+des+"<br>");
+        document.write("El igv es:"+igv+"<br>");
+        document.write("El total a pagar es:"+tot+"<br>");
+        document.write("<hr>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

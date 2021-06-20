@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 4</title>
+    <script type="text/javascript">
+    //Procedimientos
+    //Un procedimiento
+    //Ejemplo 1
+    //Desarrollar una aplicacion que permita ingresar 2 numeros y luego permita calcular las operaciones basicas
+    //¿Cuantas variables necesito?
+    //6
+    //¿Que tipos de datos necesito?
+    //Real 
+    //¿Cuales son las variables que necesito?
+    //n1, n2, sum, res, mul, div
+    //¿Que variables voy a leer?
+    //n1, n2
+    function CalculaSuma(num1,num2){
+        return num1+num2;
+    }
+    function CalculaResta(num1,num2){
+        return num1-num2;
+    }
+    function CalculaMultiplicacion(num1,num2){
+        return num1*num2;
+    }
+    function CalculaDivision(num1,num2){
+        return num1/num2;
+    }
+    function Calcular(){
+        if(document.getElementById("txN1").value==""){
+            alert("Ingrese el numero 1");
+            document.getElementById("txN1").focus();
+        }else if(document.getElementById("txN2").value==""){
+            alert("Ingrese el numero 2");
+            document.getElementById("txN2").focus();
+        }else{
+    //Declarando e inicializando valores
+    var n1=0, n2=0, sum=0, res=0, mul=0, div=0
+    //capturando valores
+    n1=parseFloat(prompt("Ingrese el numero 1:"));
+    n2=parseFloat(prompt("Ingrese el numero 2:"));
+    // alert(n1);
+    // alert(n2);
+    //llamando a las funciones para calcular
+    sum=CalculaSuma(n1,n2);
+    res=CalculaResta(n1,n2);
+    mul=CalculaMultiplicacion(n1,n2);
+    div=CalculaDivision(n1,n2);
+
+    //mostrando resultados
+    document.getElementById("txSum").value=sum;
+    document.getElementById("txRes").value=res;
+    document.getElementById("txMul").value=mul;
+    document.getElementById("txDiv").value=div;
+    }
+}
+</script>
+</head>
+<body>
+
+    <form action="">
+        <label for="txN1">Numero 1:</label>
+        <input type="text" name="txN1" id="txN1"><br>
+
+        <label for="txN2">Numero 2:</label>
+        <input type="text" name="txN2" id="txN2"><br>
+
+        <label for="txSum">Suma:</label>
+        <input type="text" name="txSum" id="txSum"><br>
+        
+        <label for="txRes">Resta:</label>
+        <input type="text" name="txRes" id="txRes"><br>
+        
+        <label for="txMul">Division:</label>
+        <input type="text" name="txMul" id="txMul"><br>
+
+        <label for="txDiv">Division:</label>
+        <input type="text" name="txDiv" id="txDiv"><br>
+
+        <input type="button" onclick="Calcular()" name="btnCalcular" id="btnCalcular" value="Calcular">
+        <input type="reset" name="btnLimpiar" id="btnLimpiar" value="Limpiar">
+        
+    </form>
+    
+</body>
+</html>

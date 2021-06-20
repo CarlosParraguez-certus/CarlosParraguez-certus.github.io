@@ -1,0 +1,100 @@
+ond<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Parte 3</title>
+    <script type="text/javascript">
+        // Conectores logicos
+        // Permiten unr 2 o mas condiciones dentro de un iof
+        // Conector Logico y 
+        // Es un verdadero si todas las condiciones son verdaderas
+        // Sintaxis
+        // if(condicion1 && condicion2) -> condicion1=V y condicion2=V -> V
+        // if(condicion1 && condicion2) -> condicion1=V y condicion2=F -> F
+        // Conector Logico O
+        // Es falso si todas las condiciomes son false
+        // Sintaxis
+        // if(condicion1 || condicion2) -> condicion1=V y condicion2=V -> V
+        // if(condicion1 || condicion2) -> condicion1=V y condicion2=F -> V
+        // if(condicion1 || condicion2) -> condicion1=F y condicion2=F -> F 
+
+        // Ejemplo 1
+        // Desarrollar una aplicacion que permita calcular el sueldo final de un trabajador si se 
+        // sabe que si pertenece a la categoria 2 y su turno es mañana se le aplicara una 
+        // bonificacion del 7% en caso contrario no se le aplicara, ninguna bonificacion.
+        // Mostrar todos los resultados
+        // ¿Cuantas variables necesito?
+        // 5
+        // ¿Que tipo de datos necesito?
+        // Real, Entero, Texto
+        // ¿Cuales son las vaiables que necesito?
+        // sb, bon, sf, cat, tur
+        // ¿Que variabales voy a leer?
+        // sb, cat, tur
+        // definiendo e inicializando variables
+        var sb=0,cat=0,tur="",bon=0,sf=0;
+        // Capturando valores
+        sb=parseFloat(prompt("Ingrese el sueldo basico:"));
+        cat=parseInt(prompt("Ingrese la Categoria:"));
+        tur=prompt("Ingrese el turno: [m] o [t] o [n]");
+        // condicion
+        if(cat==2 && (tur=="m" || tur=="M")){
+            bon=sb*0.07;
+        }else{
+            bon=0;
+        }
+        // Realizando operaciones
+        sf=sb+bon;
+        // mostrando resultados
+        alert("El sueldo basico es:"+sb);
+        alert("La bonificacion es:"+bon);
+        alert("El Sueldo final es:"+sf);
+
+        // Ejemplo 2
+        // Desarrollar una aplicacion que te permita ingresar 3 numeros y luego calcular
+        // cual es mayor y cual es menor. Mostrar el numero mayor y el numero menor
+        // ¿Cuantas variables necesito?
+        // 5
+        // ¿Que tipo de datos necesito?
+        // Entero
+        // ¿Cuales son las vaiables que necesito?
+        // n1, n2, n3, nma, nme
+        // ¿Que variabales voy a leer?
+        // n1,n2,n3
+        // definiendo e inicializando variables
+        var n1=0,n2=0,n3=0,nma=0,nme=0;
+        // capturando valores
+        n1=parseInt(prompt("Ingrese el numero 1:"));
+        n2=parseInt(prompt("Ingrese el numero 2:"));
+        n3=parseInt(prompt("Ingrese el numero 3:"));
+        // condicion
+        if(n1>n2 && n1>n3){
+            nma=n1;
+        }else{
+            if(n2>n1 && n2>n3){
+                nma=n2;
+            }else{
+                nman=3;
+            }
+        }
+        if(n1<n2 && n1<n3){h
+            nme=n1;
+        }else{
+            if(n2<n1 && n2<n3){
+                nme=n2;
+            }else{
+                nme=n3;
+            }
+        }
+        // mostrando resultados
+        document.write("El numero mayor es: "+nma+"<br>");
+        document.write("El numero menor es: "+nme+"<br>");
+        document.write("<hr>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

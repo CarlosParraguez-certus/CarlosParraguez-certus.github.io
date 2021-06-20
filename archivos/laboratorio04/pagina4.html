@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 1</title>
+    <script type="text/javascript">
+        //Operaciones
+        // calculos artimeticos, utilizando los operadores amtematicos
+        // + -> suma
+        // - -> resta
+        // * -> multiplcacion
+        // / -> division
+
+        //Desarrolar una aplicacion que permita calcular la suma de dos numeros si se sabe que 
+        //los numeros son 7 y 6, mosttrar los varoles de las variables
+        //¿Cuantas variables necesito?
+        //numero1, numero2, suma
+        //¿Que tipo de dato necesito?
+        //entero
+        //declaracion de las variables
+        var numero1;
+        var numero_2;
+        var suma;
+        //inicializacion de las variables
+        numero1=0;
+        numero_2=0;
+        suma=0;
+        //Asignamos valores
+        numero1=7;
+        numero_2=6;
+        //realizamos operacion
+        suma=numero1+numero_2,
+
+        //mostrando las variables
+        alert("La suma es: "+suma);
+        document.write('La suma es: '+suma+'<br>');
+
+        //Desarrolar una aplicacion que permita calcular el promedio de 4 notas las cuales son
+        //18,17,16,14; mostrar valores de las variables
+        //¿Cuantas variables necesito?
+        // n1, n2, n3, n4 , prom
+        //¿Que tipo de dato necesito?
+        //Real
+        //declaracion de las variables
+        var n1;
+        var n2;
+        var n3;
+        var n4;
+        var prom;
+        //inicializacion de las variables
+        n1=0;
+        n2=0;
+        n3=0;
+        n4=0;
+        prom=0;
+        //Asignamos valores 
+        n1=18;
+        n2=17;
+        n3=16;
+        n4=14;
+        //Realizamos operacion
+        prom=(n1+n2+n3+n4)/4;
+        //mostrando valores
+        alert('La nota final es: '+prom);
+        document.write("La nota final es: "+prom+"<br>");
+
+        //Desarrollar una aplicacion que te permita calcular el sueldo final de un trabajador
+        //si se sabe que su sueldo basico es de 1000soles y ademas se le calcula un bonificacion
+        //del 7% del sueldo basico y un descuento del 4% del sueldo basico. mostrar todos los
+        //resultados
+        //¿Cuanatas variables necesito?
+        //sueldo basico, bonificacion, descuento, sueldo final
+        //¿Que tipo de datos necesito?
+        //real
+        //declaracion de variables
+        var sb;
+        var bon;
+        var des;
+        var sf;
+        //inicializamos valores
+        sb=0;
+        bon=0;
+        des=0;
+        sf=0;
+        //asignamos valores
+        sb=1000;
+        //realizamos operaciones
+        bon=sb*0.07;
+        des=sb*0.04;
+        sf=sb+bon-des;
+        //mostrando resultados
+        alert("El sueldo basico es: "+sb);
+        alert("La bonficacion es: "+bon);
+        alert("El descuento es: "+des);
+        alert("El sueldo final es: "+sf);
+        document.write('El sueldo basico es: '+sb+'<br>');
+        document.write('La bonificacion es: '+bon+'<br>');
+        document.write('El descuento es: '+des+'<br>');
+        document.write('El sueldo final es: '+sf+'<br>');
+
+        //Desarrollar una aplicacion que permita calcular el total a pagar por la compra de 
+        //un producto, si se sabe que la cantidad a comprar es 10 y el precio del producto
+        //es 125.80 y ademas se debe de calcular el igv que es el 18% del subtotal.
+        //Mostrar todos los resultados
+        //¿Cuantas variables necesito?
+        //cantidad, precio, igv, subtotal, total
+        //¿Que tipo de datos necesito?
+        //real y entero
+        //declarando e inicializando variables
+        var pre=0;
+        var can=0;
+        var sbt=0;
+        var igv=0;
+        var tot=0;
+        //asignando valores
+        can=10;
+        precio=125.80;
+        //realizando operaciones
+        sbt=pre*can
+        igv=sbt*0.18
+        tot=sbt+igv
+        //mostrando resultados
+        alert("El Subtotal es: "+sbt);
+        alert("El IGV es: "+igv);
+        alert("El Total es: "+tot);
+        document.write('El subtotal es: '+sbt+'<br>');
+        document.write('La igv es: '+igv+'<br>');
+        document.write('El total es: '+tot+'<br>');
+        document.write('<a href="index.html">Regresar</a><br>');
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
