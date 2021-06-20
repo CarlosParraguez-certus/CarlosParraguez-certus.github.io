@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo4</title>
+    <script type="text/javascript">
+    var can=0, pre=0, sbt=0, des=0, tot=0, igv=0, cat="", com="";
+    can=parseInt(prompt("Ingrese la cantidad a comprar:"));
+    pre=parseFloat(prompt("Ingrese el precio del producto:"));
+    cat=prompt("Ingrese la categoria");
+    com=prompt("Ingrese el tipo de comprobante [f]Factura o [b]Boleta");
+    sbt=can*pre
+    if(cat=="d"){
+        des=sbt*0.07;
+    }else{
+        des=sbt*0.03;
+    }
+    if(com=="f"){
+        igv=sbt*0.18;
+    }else{
+        igv=0;
+    }
+    tot=sbt-des+igv;
+    document.write("El subtotal es: "+sbt+"<br>");
+    document.write("El descuento es: "+des+"<br>");
+    document.write("El igv es: "+igv+"<br>");
+    document.write("El total es: "+tot+"<br>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo2</title>
+    <script type="text/javascript">
+    var n1=0, n2=0, n3=0, n4=0, prom=0, men="";
+    n1=parseFloat(prompt("Ingrese la nota 1:"));
+    n2=parseFloat(prompt("Ingrese la nota 2:"));
+    n3=parseFloat(prompt("Ingrese la nota 3:"));
+    n4=parseFloat(prompt("Ingrese la nota 4:"));
+    prom=(n1+(2*n2)+n3+(3*n4))/7;
+    if(prom>=18){
+        men="Aprobado";
+    }else{
+        men="Desaprobado";
+    }
+    document.write("El promedio es:"+prom+"<br>");
+    document.write(men);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

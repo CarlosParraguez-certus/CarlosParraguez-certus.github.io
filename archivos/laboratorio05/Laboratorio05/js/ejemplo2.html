@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 2</title>
+    <script type="text/javascript">
+    var tur="", men="";
+    tur=prompt("Ingrese el turno M o T o N:");
+    if(tur=="m" || tur=="M"){
+        men="Mañana";
+    }else{
+        if(tur=="t" || tur=="T"){
+            men="Tarde";
+        }else{
+            if(tur=="n" || tur=="N"){
+                men="Noche";
+            }else{
+                men="No es una letra valida";
+            }
+        }
+    }
+    alert("El turno es: "+men);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
