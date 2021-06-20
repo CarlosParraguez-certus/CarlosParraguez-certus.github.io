@@ -9,7 +9,6 @@ ul{
     position: fixed;
     overflow: auto;
     border: 1px solid #555;
-    
 }
 li{
     text-align: center;

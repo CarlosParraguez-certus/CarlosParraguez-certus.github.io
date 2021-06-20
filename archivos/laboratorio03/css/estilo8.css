@@ -56,22 +56,22 @@ body {
 
 @font-face {
   font-family: "Indie Flower";
-  src: url(/fonts/IndieFlower-Regular.ttf);
+  src: url(/archivos/laboratorio03/fonts/IndieFlower-Regular.ttf);
 }
 
 @font-face {
   font-family: "Girassol";
-  src: url(/fonts/Girassol-Regular.ttf);
+  src: url(/archivos/laboratorio03/fonts/Girassol-Regular.ttf);
 }
 
 @font-face {
   font-family: "Rogue one";
-  src: url(/fonts/ReggaeOne-Regular.ttf);
+  src: url(/archivos/laboratorio03/fonts/ReggaeOne-Regular.ttf);
 }
 
 @font-face {
   font-family: "Batman";
-  src: url(/fonts/batmfa__.ttf);
+  src: url(/archivos/laboratorio03/fonts/batmfa__.ttf);
 }
 
 .parrafo11 {
