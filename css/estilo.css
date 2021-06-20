@@ -1,16 +1,15 @@
-body{
-    margin: 0;
-}
+
 
 ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin-left:550px;
+    padding: 0px;
     width: 20%;
     background-color: gainsboro;
     position: fixed;
     overflow: auto;
     border: 1px solid #555;
+    
 }
 li{
     text-align: center;
@@ -26,11 +25,27 @@ li a{
 }
 
 li a.activo{
-    background-color: green;
+    background-color: #ffc845;
     color: white;
 }
 
 li a:hover:not(.activo) {
     background-color: #555;
     color: white;
+}
+
+body{
+    background-image: url(/img/fotos-impresionantes-imagenes-que-parecen-modificadas-con-photoshop-11.jpeg);
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: 100%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    border: none;
+    margin: 0;
+    background-color: black;
+    opacity: 60%;
 }

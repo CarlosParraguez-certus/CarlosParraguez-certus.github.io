@@ -27,7 +27,7 @@ body {
 
 /* Agregamos una imagen de fondo a un parrafo */
 #parrafoimagen {
-  background-image: url("/img/logo\ certus.png");
+  background-image: url("/archivos/laboratorio03/img/logo\ certus.png");
 }
 
 /* Agregamos un color de fondo con transparencia para los parrafos */
