@@ -34,7 +34,7 @@ li a:hover:not(.activo) {
 }
 
 body{
-    background-image: url(/img/fotos-impresionantes-imagenes-que-parecen-modificadas-con-photoshop-11.jpeg);
+    background-image: url("/img/fotos-impresionantes-imagenes-que-parecen-modificadas-con-photoshop-11.jpeg");
     background-repeat: no-repeat;
     margin: 0;
     background-size: 100%;
