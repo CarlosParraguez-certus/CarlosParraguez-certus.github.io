@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - Parte 1</title>
+</head>
+<body>
+    <form action="">
+        <label for="txtNom">Nombres:</label>
+        <input type="text" name="txtNom" id="txtNom"><br>
+        <label for="txtApe">Apellidos:</label>
+        <input type="text" name="txtApe" id="txtApe"><br>
+        <label for="txtDni">DNI:</label>
+        <input type="text" name="txtDni" id="txtDni"><br>
+        <label for="cboCuso">Curso:</label>
+        <select name="cboCurso" id="cboCurso">
+            <option value="0">Seleccione una opción</option>
+            <option value="1">Diseño web</option>
+            <option value="2">Base de datos</option>
+            <option value="3">Programacion Java</option>
+        </select><br>
+        <label for="">Turno:</label>
+        <input type="radio" name="turno" id="rbM"><label for="rbM">Mañana</label>
+        <input type="radio" name="turno" id="rbT"><label for="rbT">Tarde</label>
+        <input type="radio" name="turno" id="rbN"><label for="rbN">Noche</label>
+        <br>
+        <label for="">Estado</label>
+        <input type="checkbox" name="chkEst" id="chkEst">
+        <label for="chkEst">Habilitado</label><br>
+        <input type="button" value="Registrar" id="btnResgistrar" name="btnRegistrar">
+        <input type="reset" value="Limpiar" name="btnLimpiar" id="btnLimpiar">
+    </form>
+    <hr>
+    <table id="tbAlumno">
+        <thead>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>DNI</th>
+            <th>Curso</th>
+            <th>Turno</th>
+            <th>Estado</th>
+        </thead>
+    </table>
+</body>
+</html>
