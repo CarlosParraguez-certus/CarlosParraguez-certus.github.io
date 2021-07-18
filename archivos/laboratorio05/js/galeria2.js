@@ -14,28 +14,28 @@ for(i=0; i<abrirmodal.length;i++){
             case "modal1":
                 ventanamodal.classList.add(isVisible);
                 parrafocabecera.innerHTML = "Imagen 1";
-                imagenmodal.setAttribute("src", "img/Como funciona.png");
+                imagenmodal.setAttribute("src", "/archivos/laboratorio05/img/Como funciona.png");
                 imagenmodal.setAttribute("alt", "Imagen 1");
                 parrafopie.innerHTML = "Imagen 1";
                 break;
                 case "modal2":
                 ventanamodal.classList.add(isVisible);
                 parrafocabecera.innerHTML = "Imagen 2";
-                imagenmodal.setAttribute("src", "img/ing.de datos.jpg");
+                imagenmodal.setAttribute("src", "/archivos/laboratorio05/img/ing.de datos.jpg");
                 imagenmodal.setAttribute("alt", "Imagen 2");
                 parrafopie.innerHTML = "Imagen 2";
                 break;
                 case "modal3":
                 ventanamodal.classList.add(isVisible);
                 parrafocabecera.innerHTML = "Imagen 3";
-                imagenmodal.setAttribute("src", "img/QUE ES LA BIG DATA.png");
+                imagenmodal.setAttribute("src", "/archivos/laboratorio05/img/QUE ES LA BIG DATA.png");
                 imagenmodal.setAttribute("alt", "Imagen 3");
                 parrafopie.innerHTML = "Imagen 3";
                 break;
                 case "modal4":
                 ventanamodal.classList.add(isVisible);
                 parrafocabecera.innerHTML = "Imagen 4";
-                imagenmodal.setAttribute("src", "img/Vida Cotidiana Big Data.jpg");
+                imagenmodal.setAttribute("src", "/archivos/laboratorio05/img/Vida Cotidiana Big Data.jpg");
                 imagenmodal.setAttribute("alt", "Imagen4");
                 parrafopie.innerHTML = "Imagen 4";
                 break;
